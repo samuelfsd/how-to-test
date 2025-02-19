@@ -1,8 +1,8 @@
 # Repositório para práticas e conceitos sobre testes de software
 
-Uma abordagem teórica e pratica sobre alguns conceitos de teste de software. 
+Uma abordagem teórica e pratica sobre alguns conceitos de teste de software.
 
-# Quais os conteúdos abordados? 
+# Quais os conteúdos abordados?
 
 - [ ] ...
 - [ ] ...

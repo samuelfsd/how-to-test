@@ -13,16 +13,19 @@ Por isso é extremamente necessário a escrita de testes focando sempre num bom 
 Os testes funcionais servem principalmente para medir requisitos que são fundamentais para aquela determinada aplicação conhecidos como requisitos funcionais. Dentro dos testes funcionais podemos pegar e utilizar algo bem comum quando se trabalha com testes que é a piramide de testes, onde tem algumas etapas começando por sua base:
 
 - Testes unitários/unidade: Testam a menor unidade do sistema (geralmente testando funções específicas de forma isolada)
-  Vantagens: Baixo custo, fácil elaboração, ótima precisão, garante que aquela parte separada está funcional.
-  Desvantagem: Não entrega tanto valor em relação aos outros tipos de testes. Foge do caso de uso do usuário.
+
+  - Vantagens: Baixo custo, fácil elaboração, ótima precisão, garante que aquela parte separada está funcional.
+  - Desvantagem: Não entrega tanto valor em relação aos outros tipos de testes. Foge do caso de uso do usuário.
 
 - Testes de integração: Testam unidades de forma integradas.
-  Vantagens:Geram mais valor ao produto, simulando melhor um caso de uso específico.
-  Desvantagens: Mais difícil de fazer, custo maior.
+
+  - Vantagens:Geram mais valor ao produto, simulando melhor um caso de uso específico.
+  - Desvantagens: Mais difícil de fazer, custo maior.
 
 - Testes end to end (E2E) (Testes de aceitação): Testam TODO o fluxo do usuário na aplicação.
-  Vantagens: Muito valioso para a aplicação. Se bem feitos conseguem simular todo o fluxo que o usuário vai percorrer, assim prevendo diversas ações que o usuário pode tomar.
-  Desvantagens: Muito caros, são demorados (criação e execução), tem maior complexidade na escrita e são frágeis (Flaky) podem mudar constantemente.
+
+  - Vantagens: Muito valioso para a aplicação. Se bem feitos conseguem simular todo o fluxo que o usuário vai percorrer, assim prevendo diversas ações que o usuário pode tomar.
+  - Desvantagens: Muito caros, são demorados (criação e execução), tem maior complexidade na escrita e são frágeis (Flaky) podem mudar constantemente.
 
 ## Testes não funcionais
 

@@ -6,8 +6,11 @@ import { App } from './App'
 
 describe('Render App', () => {
     it('should be render App component', () => {
-        render(<App />)
-        const headingElement = screen.getByRole('heading', {name: 'bora'});
+        const { container } = render(<App />)
+
+        const headingElement = screen.getByRole('heading', { name: 'Olá mundo!' })
+
+        expect(container).toMatchSnapshot();
         expect(headingElement).toBeDefined();
     })
 })
